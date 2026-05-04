@@ -14,7 +14,7 @@ export default function ContactPage() {
       <NavbarShell />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="relative bg-[#0d0d0f] text-white py-20">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
@@ -42,7 +42,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
                     <input 
                       type="text" 
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500" 
                       placeholder="John"
                     />
                   </div>
@@ -50,7 +50,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
                     <input 
                       type="text" 
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500" 
                       placeholder="Doe"
                     />
                   </div>
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Email *</label>
                   <input 
                     type="email" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500" 
                     placeholder="john@example.com"
                   />
                 </div>
@@ -69,14 +69,14 @@ export default function ContactPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
                   <input 
                     type="tel" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500" 
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Subject</label>
-                  <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                  <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500">
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
                     <option value="distribution">Press Release Distribution</option>
@@ -90,14 +90,14 @@ export default function ContactPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Message *</label>
                   <textarea 
                     rows={6} 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500" 
                     placeholder="Tell us more about your inquiry..."
                   ></textarea>
                 </div>
                 
                 <button 
                   type="submit" 
-                  className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center gap-2"
+                  className="w-full bg-[#f04b23] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#db3e18] transition-colors duration-200 flex items-center justify-center gap-2"
                 >
                   <Send className="h-5 w-5" />
                   Send Message
@@ -112,8 +112,8 @@ export default function ContactPage() {
                 
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <Phone className="h-6 w-6 text-blue-600" />
+                    <div className="bg-orange-100 p-3 rounded-lg">
+                      <Phone className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
@@ -123,8 +123,8 @@ export default function ContactPage() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <Mail className="h-6 w-6 text-blue-600" />
+                    <div className="bg-orange-100 p-3 rounded-lg">
+                      <Mail className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
@@ -134,8 +134,8 @@ export default function ContactPage() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <Clock className="h-6 w-6 text-blue-600" />
+                    <div className="bg-orange-100 p-3 rounded-lg">
+                      <Clock className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Business Hours</h3>
@@ -145,8 +145,8 @@ export default function ContactPage() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <MapPin className="h-6 w-6 text-blue-600" />
+                    <div className="bg-orange-100 p-3 rounded-lg">
+                      <MapPin className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Office Locations</h3>
@@ -201,7 +201,7 @@ export default function ContactPage() {
           <div className="text-center mt-12">
             <Link 
               href="/help" 
-              className="inline-flex bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+              className="inline-flex bg-[#f04b23] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#db3e18] transition-colors duration-200"
             >
               View All FAQs
             </Link>
